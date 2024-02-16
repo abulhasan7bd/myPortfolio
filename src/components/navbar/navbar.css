@@ -1,0 +1,52 @@
+:root {
+  --col-green: #7ed957;
+  --col-white: white;
+  --f-small: 1.125rem;
+  --f-small-b: 1.563rem;
+  --f-normal: 2.5rem;
+  --f-big: 3.125rem;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav .container .navbar__header {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container .navbar__header .logo h2 {
+  cursor: pointer;
+  color: var(--col-green);
+  text-transform: capitalize;
+  letter-spacing: 0.62px;
+  font-weight: 800;
+  font-size: var(--f-small-b);
+}
+nav .container .navbar__header .nav-list ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+nav .container .navbar__header .nav-list ul li a {
+  color: var(--col-white);
+  font-size: var(--f-small);
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+nav .container .navbar__header .nav-list ul li a:hover {
+  color: var(--col-green);
+}
+nav .container .navbar__header .nav-list ul li .active {
+  color: var(--col-green);
+}/*# sourceMappingURL=navbar.css.map */
